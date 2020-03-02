@@ -51,8 +51,8 @@ public class City implements Serializable {
     @Column(name = "last_update")
     @Temporal(TemporalType.TIMESTAMP)
     private Date lastUpdate;
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "cityId")
-    private Collection<Address> addressCollection;
+   /* @OneToMany(cascade = CascadeType.ALL, mappedBy = "cityId")
+    private Collection<Address> addressCollection; */
     @JoinColumn(name = "country_id", referencedColumnName = "country_id")
     @ManyToOne(optional = false)
     private Country countryId;
@@ -93,7 +93,7 @@ public class City implements Serializable {
     public void setLastUpdate(Date lastUpdate) {
         this.lastUpdate = lastUpdate;
     }
-
+/*
     @XmlTransient
     public Collection<Address> getAddressCollection() {
         return addressCollection;
@@ -102,7 +102,7 @@ public class City implements Serializable {
     public void setAddressCollection(Collection<Address> addressCollection) {
         this.addressCollection = addressCollection;
     }
-
+*/
     public Country getCountryId() {
         return countryId;
     }

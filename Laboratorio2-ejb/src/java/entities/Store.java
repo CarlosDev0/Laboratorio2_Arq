@@ -48,9 +48,9 @@ public class Store implements Serializable {
     private Date lastUpdate;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "storeId")
     private Collection<Staff> staffCollection;
-    @JoinColumn(name = "address_id", referencedColumnName = "address_id")
-    @ManyToOne(optional = false)
-    private Address addressId;
+    //@JoinColumn(name = "address_id", referencedColumnName = "address_id")
+    //@ManyToOne(optional = false)
+    //private Address addressId;
     @JoinColumn(name = "manager_staff_id", referencedColumnName = "staff_id")
     @OneToOne(optional = false)
     private Staff managerStaffId;
@@ -95,7 +95,7 @@ public class Store implements Serializable {
     public void setStaffCollection(Collection<Staff> staffCollection) {
         this.staffCollection = staffCollection;
     }
-
+/*
     public Address getAddressId() {
         return addressId;
     }
@@ -103,7 +103,7 @@ public class Store implements Serializable {
     public void setAddressId(Address addressId) {
         this.addressId = addressId;
     }
-
+*/
     public Staff getManagerStaffId() {
         return managerStaffId;
     }

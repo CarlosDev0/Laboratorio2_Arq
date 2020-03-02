@@ -6,7 +6,7 @@
     <properties>
     <property name="javax.persistence.jdbc.user" value="carlos" />
     <property name="javax.persistence.jdbc.password" value="carlos" />
-    <property name="javax.persistence.jdbc.driver" value="Nuevo Driver MySql" />
+    <property name="javax.persistence.jdbc.driver" value="MySQL (Connector/J driver) (Sakila)" />
     <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3308/sakila?serverTimezone=UTC" />
     </properties>
   </persistence-unit>

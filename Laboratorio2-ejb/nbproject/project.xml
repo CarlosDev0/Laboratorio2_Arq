@@ -6,7 +6,7 @@
             <name>Laboratorio2-ejb</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <included-library dirs="200">file.reference.mysql-connector-java-8.0.19.jar</included-library>
-            <included-library dirs="200">libs.javaee-web-api-6.0.classpath</included-library>
+            <included-library dirs="200">libs.jsf20.classpath</included-library>
             <source-roots>
                 <root id="src.dir" name="Source Packages"/>
             </source-roots>

@@ -11,6 +11,7 @@ import java.util.Date;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -30,9 +31,10 @@ import javax.xml.bind.annotation.XmlTransient;
  *
  * @author USER
  */
-@MappedSuperclass
+//@MappedSuperclass
 @Table(name = "customer")
 @XmlRootElement
+@Entity
 public class Customer implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -71,9 +73,9 @@ public class Customer implements Serializable {
     private Collection<Rental> rentalCollection;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customerId")
     private Collection<Payment> paymentCollection;
-    @JoinColumn(name = "address_id", referencedColumnName = "address_id")
-    @ManyToOne(optional = false)
-    private Address addressId;
+    //@JoinColumn(name = "address_id", referencedColumnName = "address_id")
+    //@ManyToOne(optional = false)
+    //private Address addressId;
     @JoinColumn(name = "store_id", referencedColumnName = "store_id")
     @ManyToOne(optional = false)
     private Store storeId;
@@ -166,7 +168,7 @@ public class Customer implements Serializable {
     public void setPaymentCollection(Collection<Payment> paymentCollection) {
         this.paymentCollection = paymentCollection;
     }
-
+/*
     public Address getAddressId() {
         return addressId;
     }
@@ -174,7 +176,7 @@ public class Customer implements Serializable {
     public void setAddressId(Address addressId) {
         this.addressId = addressId;
     }
-
+*/
     public Store getStoreId() {
         return storeId;
     }

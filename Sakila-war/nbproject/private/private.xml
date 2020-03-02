@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/src/java/controller/CustomerJpaController.java</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/web/CustomerList.xhtml</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/web/WEB-INF/web.xml</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/src/java/managedBeans/customerMBean.java</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/src/java/controller/customerServlet.java</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/src/java/controller/StoreJpaController.java</file>
+            <file>file:/C:/CARLOS/UDEA/Arquitectura%20de%20Software/Laboratorio2_V2/Sakila/Sakila-war/src/java/controller/StaffJpaController.java</file>
+        </group>
+    </open-files>
+</project-private>
